@@ -47,7 +47,7 @@ def main():
     elif options.tweetit:
         twitcon.tweetit(options.msg)
     else:
-        print "You are missing some options. Try the -h flag for help"
+        parser.print_help()
         sys.exit(2)
 
 if __name__ == "__main__":
