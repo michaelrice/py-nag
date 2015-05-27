@@ -1,0 +1,1 @@
+Notification script for nagios. Used strictly to send notices via Twitter
